@@ -1,0 +1,52 @@
+@media(max-width: 768px) {
+    header{
+        padding: 10px ;
+        justify-content: left;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .navigation{
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .navigation a{
+        font-size: 15px;
+        margin-right: 0px;
+    }
+
+    .btn-talk{
+        margin-top: 10px;
+    }
+    
+    .home{
+        padding: 10px 0px;
+        width: auto;
+    }
+    
+    .image-rapi{
+        width: 100px;
+    }
+
+    .kotak-1{
+        padding: 0px;
+        padding-top: 150px;
+
+    }
+
+    .image-rapi{
+        margin-top: 30px;
+        width: 200px;
+        height: 250px;
+    }
+
+    .myimage{
+        margin-top: 20px;
+    }
+    
+}

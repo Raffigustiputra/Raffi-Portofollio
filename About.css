@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}   
+
+.logo {
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+}
+
+.logo span {
+    color: rgb(244, 39, 255);
+}  
+
+.navigation a {
+    font-size: 1.1em;
+    color: #555;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+}
+
+.navigation a:hover {
+color: rgb(244, 39, 255);
+}
+
+.btn-talk {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: rgb(244, 39, 255);
+    border-radius: 10px;
+    border: 2px solid rgb(244, 39, 255)t;
+    font-weight: 500;
+    transition: 3s;
+} 
+
+.btn-talk:hover {
+color: rgb(244, 39, 255);
+background: transparent;
+}
+
+.kotak-1 {
+    background-color: white;     
+    border-radius: 10px;
+    margin-top: 1%;
+    padding: 315px;
+}
+
+.kotak-1 img {
+    border-radius: 100%;
+    margin-right: 900px;
+    
+}
